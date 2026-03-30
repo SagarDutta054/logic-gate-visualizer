@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logic Gate Visualizer</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="parent-container">
+      <div class="item item-1">
+        <h5>Logic gate visualizer</h5>
+      </div>
+      <div class="item item-2">
+        <select name="input-gate" id="input-selection">
+          <option value="and">AND</option>
+          <option value="or">OR</option>
+          <option value="not">NOT</option>
+        </select>
+      </div>
+      <div class="item item-3">
+        <div class="diagram-1">
+          <div class="main-circuit-line"></div>
+          <div class="switch switch-1-and switch-1">
+            <div class="background-oval background-oval-1-and"></div>
+            <div class="circular-head circular-head-1-and"></div>
+          </div>
+          <div class="switch switch-2-and switch-2">
+            <div class="background-oval background-oval-2-and"></div>
+            <div class="circular-head circular-head-2-and"></div>
+          </div>
+          <div class="bulb">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+            <div class="light light-and"></div>
+          </div>
+          <div class="battery">
+            <div class="left"><h4>+</h4></div>
+            <div class="left"><h4>-</h4></div>
+          </div>
+        </div>
+        <div class="diagram-2">
+          <div class="main-circuit-line"></div>
+          <div class="inner-line"></div>
+          <div class="switch switch-1-or switch-1">
+            <div class="background-oval background-oval-1-or"></div>
+            <div class="circular-head circular-head-1-or"></div>
+          </div>
+          <div class="switch switch-2-or switch-2">
+            <div class="background-oval background-oval-2-or"></div>
+            <div class="circular-head circular-head-2-or"></div>
+          </div>
+          <div class="bulb">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+            <div class="light light-or"></div>
+          </div>
+          <div class="battery">
+            <div class="left"><h4>+</h4></div>
+            <div class="left"><h4>-</h4></div>
+          </div>
+        </div>
+        <div class="diagram-3">
+          <div class="main-circuit-line"></div>
+          <div class="inner-line"></div>
+          <div class="switch switch-2-not switch-2">
+            <div class="background-oval background-oval-2-not"></div>
+            <div class="circular-head circular-head-2-not"></div>
+          </div>
+          <div class="bulb">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+            <div class="light light-not"></div>
+          </div>
+          <div class="battery">
+            <div class="left"><h4>+</h4></div>
+            <div class="left"><h4>-</h4></div>
+          </div>
+        </div>
+      </div>
+      <div class="item item-4">
+        <p id="description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, officia.
+        </p>
+      </div>
+      <div class="item item-5">
+        <table border="1px" cellpadding="2px" cellspacing="0" id="table-and">
+          <tr>
+            <th>A</th>
+            <th>B</th>
+            <th>Y</th>
+          </tr>
+          <tr class="table-row-1">
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr class="table-row-2">
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+          </tr>
+          <tr class="table-row-3">
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr class="table-row-4">
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+          </tr>
+        </table>
+        <table border="1px" cellpadding="2px" cellspacing="0" id="table-or">
+          <tr>
+            <th>A</th>
+            <th>B</th>
+            <th>Y</th>
+          </tr>
+          <tr class="table-row-1">
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr class="table-row-2">
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+          </tr>
+          <tr class="table-row-3">
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+          </tr>
+          <tr class="table-row-4">
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+          </tr>
+        </table>
+        <table border="1px" cellpadding="2px" cellspacing="0" id="table-not">
+          <tr>
+            <th>A</th>
+            <th>Y</th>
+          </tr>
+          <tr class="table-row-1">
+            <td>0</td>
+
+            <td>1</td>
+          </tr>
+          <tr class="table-row-2">
+            <td>1</td>
+            <td>0</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="item item-6">
+        <p id="step-information">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
+          perferendis fugiat eaque adipisci maxime quaerat corporis, ea neque
+          obcaecati, reiciendis illum facilis natus vel harum, minus quas
+          incidunt. Sequi, nam?
+        </p>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
