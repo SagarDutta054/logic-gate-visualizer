@@ -199,11 +199,14 @@ body {
   height: 15px;
   width: 60px;
   background: #909090;
+  /* background: transparent; */
+  /* border: 1px solid #000; */
   border-radius: 6px;
   position: absolute;
   top: 10px;
   left: 5px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.55);
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.55); */
+  transition: 0.2s ease-in-out;
 }
 .diagram-1 .switch .circular-head {
   height: 25px;
@@ -213,15 +216,20 @@ body {
   position: absolute;
   top: 5px;
   left: 5px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.55);
+  transition: 0.2s;
 }
 
 .diagram-1 .switch .background-oval.on {
-  background: #88b7e6;
+  background: linear-gradient(135deg, #84e691, #09be21);
+  background: #5fd66f;
+  transition: 0.2s;
 }
 .diagram-1 .switch .circular-head.on {
   left: 40px;
-  background: #4fa0f2;
+  background: linear-gradient(135deg, #176c23, #3ce753, #7ee775);
+  background: #00b118;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.37);
+  transition: 0.2s;
 }
 .diagram-1 .battery {
   height: 45px;
@@ -348,11 +356,16 @@ body {
 }
 
 .diagram-2 .switch .background-oval.on {
-  background: #88b7e6;
+  background: linear-gradient(135deg, #84e691, #09be21);
+  background: #5fd66f;
+  transition: 0.2s;
 }
 .diagram-2 .switch .circular-head.on {
   left: 40px;
-  background: #4fa0f2;
+  background: linear-gradient(135deg, #176c23, #3ce753, #7ee775);
+  background: #00b118;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.37);
+  transition: 0.2s;
 }
 
 .diagram-2 .battery {
@@ -479,11 +492,16 @@ body {
 }
 
 .diagram-3 .switch .background-oval.on {
-  background: #88b7e6;
+  background: linear-gradient(135deg, #84e691, #09be21);
+  background: #5fd66f;
+  transition: 0.2s;
 }
 .diagram-3 .switch .circular-head.on {
   left: 40px;
-  background: #4fa0f2;
+  background: linear-gradient(135deg, #176c23, #3ce753, #7ee775);
+  background: #00b118;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.37);
+  transition: 0.2s;
 }
 .diagram-3 .battery {
   height: 45px;
